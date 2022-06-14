@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/sass/index.css" />
+    <link rel="stylesheet" href="./assets/sass/index.css.map" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>UrbanMonkey Shop</title>
+  </head>
+  <body>
+    <div id="root">
+      <div id="overplay"></div>
+      <header>
+        <nav class="nav">
+          <a href="./index.html" class="nav-logo"><img src="./assets/img/logoshop.webp" alt=""></a>
+          <ul class="nav-menu">
+            <li class="nav-menu-item">
+              <a href="./index.html" class="nav-menu-link">Trang chủ</a>
+            </li>
+            <li class="nav-menu-item">
+              <a href="./html/OutMenu.html" class="nav-menu-link">Sản phẩm</a>
+            </li>
+            <li class="nav-menu-item">
+              <a href="#" class="nav-menu-link">Giới thiệu</a>
+            </li>
+            <li class="nav-menu-item">
+              <a href="#" class="nav-menu-link">Flash sale</a>
+            </li>
+            <li class="nav-menu-item">
+              <a href="#" class="nav-menu-link">Feedback</a>
+            </li>
+            <li class="nav-menu-item">
+              <a href="#" class="nav-menu-link">Liên hệ</a>
+            </li>
+          </ul>
+          <ul class="nav-sping">
+            <div class="nav-text">
+              <i class="fa-solid fa-bag-shopping"></i>
+              <a href="#" class="nav-menu-link" id="cart-icon"> cart </a>
+              <div class="box-number">
+                <span class="number">0</span>
+              </div>
+            </div>
+          </ul>
+          <div class="nav-hamberger"></div>
+        </nav>
+        <!-- <div class="cart">
+          <div class="cart-box">
+            <h4 class="cart-title">Your Cart</h4>
+            <i class="fa-solid fa-xmark" id="cart-lose"></i>
+          </div>
+          <div class="cart-group">
+            render product in cart
+          </div>
+          <div class="cart-total">
+            <div class="cart-total-title">Subtotal:</div>
+            <button class="cart-btn">Continue to checkout</button>
+          </div>
+        </div> -->
+      </header>
+      <!-- ==========================END HEADER===================================== -->
+
+      <!-- ============================================BANER==============================-->
+      <section class="banner">
+        <div class="banner-container">
+          <div class="banner-box">
+            <div class="banner-img">
+              <div class="banner-desc">
+                <button class="banner-btn">xem thêm sản phẩm</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- ============================================END BANER============================= -->
+
+      <!-- =========================FEATURE MUGS========================== -->
+      <section class="featured" data-aos="fade-up">
+        <div class="container-product">
+          <h3 class="title-center">Sản phẩm nổi bật</h3>
+          <div class="faetured-box">
+            <div class="featured-lists">
+              <!-- render product here -->
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- =========================END FEATURE MUGS========================== -->
+      <!-- ===========================MORE PRODUCtS============================ -->
+      <section class="more" data-aos="fade-up">
+        <div class="container-product">
+          <h3 class="title-center">More products</h3>
+          <div class="more-lists">
+            <!-- render product -->
+          </div>
+        </div>
+      </section>
+      <!-- ===========================ENDMORE PRODUCtS============================ -->
+      <!-- ============================SING UP=========================================== -->
+      <section class="signup" data-aos="fade-up">
+        <div class="container">
+          <div class="signup-box">
+            <div class="signup-text">
+              <h3 class="signup-more">Đăng ký và bắt đầu mua sắm</h3>
+              <h2 class="signup-title">UrbanMonkey Shop</h2>
+            </div>
+            <form name="" action="#" class="signup-input">
+              <input type="text" placeholder="CUSTOMER@gmail.com" />
+              <button class="signup-btn">Subscribe</button>
+            </form>
+          </div>
+        </div>
+      </section>
+      <!-- ============================END SING UP=========================================== -->
+      <!-- =======================FOOTER====================================== -->
+      <footer class="footer" data-aos="fade-up">
+        <div class="container-product">
+          <div class="footer-box">
+            <div class="footer-col">
+              <p class="footer-title fz">UrbanMonkey</p>
+              <p class="footer-content">SINCE 2014</p>
+              <p class="footer-since pd">UrbanMonkeyShop Inc. © 2022</p>
+            </div>
+            <ul class="footer-col">
+              <h4 class="footer-title">Menu</h4>
+              <li class="footer-item">
+                <a href="#" class="footer-link">Trang chủ</a>
+              </li>
+              <li class="footer-item">
+                <a href="#" class="footer-link">Sản phẩm</a>
+              </li>
+              <li class="footer-item">
+                <a href="#" class="footer-link">Giới thiệu</a>
+              </li>
+              <li class="footer-item">
+                <a href="#" class="footer-link">Flash Sale</a>
+              </li>
+              <li class="footer-item">
+                <a href="#" class="footer-link">Feedback</a>
+              </li>
+              <li class="footer-item">
+                <a href="#" class="footer-link">Liên hệ</a>
+              </li>
+            </ul>
+            <ul class="footer-col">
+              <h4 class="footer-title">Follow Us</h4>
+
+              <li class="footer-item">
+                <a
+                  href="#"
+                  class="footer-link"
+                  >Facebook</a
+                >
+              </li>
+              <li class="footer-item">
+                <a href="#" class="footer-link">Instagram</a>
+              </li>
+              <li class="footer-item">
+                <a href="#" class="footer-link">Pinterest</a>
+              </li>
+              <li class="footer-item">
+                <a href="#" class="footer-link">Twitter</a>
+              </li>
+            </ul>
+            <div class="footer-col">
+              <h4 class="footer-title">Contact.</h4>
+              <p class="footer-content">We’re Always Happy to Help</p>
+              <div class="footer-email">ubMonkeyShop@gmail.com</div>
+              <div class="footer-phone">Hỗ trợ / Mua hàng:
+                02836367167 - 0384799845</div>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <!-- =======================END FOOTER====================================== -->
+    <script src="./assets/js/app.js"></script>
+    <script src="./assets/js/renderMoreProduct.js"></script>
+    <script src="./assets/js/ProductFeatured.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>

@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="../assets/sass/product.css" />
+  <link rel="stylesheet" href="../assets/sass/product.scss" />
+  <link rel="stylesheet" href="../assets/sass/outmenu.css" />
+  <link rel="stylesheet" href="../assets/sass/outmenu.scss" />
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <title>Chi tiết sản phẩm</title>
+</head>
+
+<body>
+  <!-- =================nav============================== -->
+  <div id="root">
+    <div id="overplay"></div>
+    <header>
+      <nav class="nav">
+        <a href="../index.html" class="nav-logo"><img src="../assets/img/logoshop.webp"></a>
+        <ul class="nav-menu">
+          <li class="nav-menu-item">
+            <a href="../index.html" class="nav-menu-link">Trang chủ</a>
+          </li>
+          <li class="nav-menu-item">
+            <a href="./OutMenu.html" class="nav-menu-link">Sản phẩm</a>
+          </li>
+          <li class="nav-menu-item">
+            <a href="#" class="nav-menu-link">Giới thiệu</a>
+          </li>
+          <li class="nav-menu-item">
+            <a href="#" class="nav-menu-link">Flash Sale</a>
+          </li>
+          <li class="nav-menu-item">
+            <a href="#" class="nav-menu-link">Feedback</a>
+          </li>
+          <li class="nav-menu-item">
+            <a href="#" class="nav-menu-link">Liên hệ</a>
+          </li>
+        </ul>
+        <ul class="nav-sping">
+          <div class="nav-text">
+            <i class="fa-solid fa-bag-shopping"></i>
+            <a href="#" class="nav-menu-link" id="cart-icon"> cart </a>
+            <div class="box-number">
+              <span class="number">0</span>
+            </div>
+          </div>
+        </ul>
+        <div class="nav-hamberger"></div>
+      </nav>
+    </header>
+
+    <!-- ====================================product ===================================-->
+    <section class="product">
+      <div class="container-product">
+        <div class="product-box">
+          <div class="product-img">
+            <img src="../assets/img/featured1.webp" alt="" />
+          </div>
+          <div class="product-desc">
+            <h4 class="product-name">SKELETON VARSITY BLACK/NELI</h4>
+            <p class="product-text">
+              <strong>Mô tả</strong> <br>
+              CHẤT LIỆU: NHUNG TĂM / CORDUROY <br>
+              <strong>+ Vải nhung tăm dày dặn và bo áo cao cấp</strong> <br>
+              <strong>+ Lót chằn gòn họa tiết UM$ và nút bấm kim loại khắc laser logo</strong> <br>
+              <strong>+ Kỹ thuật thêu xù và thêu nổi 2D - 3D</strong> <br>
+              <strong>ĐẶC BIỆT: Varsity có thể mặc 2 mặt</strong> <br>
+              SIZE CHARTS: <br>
+              SIZE M: 50- 65 Kg / 1m65 - 1m75 <br>
+              SIZE L: 65-90 Kg / 1m75 - 1m85 <br>
+              <strong>►LƯU Ý:</strong> ĐỔI HÀNG TRONG VÒNG 2-3 NGÀY KỂ TỪ NGÀY NHẬN HÀNG
+            </p>
+            <div class="select-swatch clearfix">
+              <div id="variant-swatch-0" class="swatch clearfix" data-option="option1" data-option-index="0">
+                <div class="header hide">Kích thước:</div>
+                <div class="select-swap">
+                  <div data-value="MEDIUM" class="n-sd swatch-element medium  ">
+                    <input class="variant-0" id="swatch-0-medium" type="radio" name="option1" value="MEDIUM"
+                      data-vhandle="medium" checked />
+                    <label for="swatch-0-medium">
+                      <span>MEDIUM</span>
+                    </label>
+                  </div>
+                  <div data-value="LARGE" class="n-sd swatch-element large  ">
+                    <input class="variant-0" id="swatch-0-large" type="radio" name="option1" value="LARGE"
+                      data-vhandle="large" />
+                    <label for="swatch-0-large">
+                      <span>LARGE</span>
+                    </label>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <p class="product-price">$98.00</p>
+            <div class="product-tos">
+              <input type="number" class="product-input" />
+              <button class="product-btn">Thêm vào giỏ hàng</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ====================================END product ===================================-->
+
+    <section class="category">
+      <div class="category-list">
+        <!-- render here -->
+      </div>
+    </section>
+    <!--================================ Sign up===================== -->
+    <section class="signup" data-aos="fade-up">
+      <div class="container">
+        <div class="signup-box">
+          <div class="signup-text">
+            <h3 class="signup-more">Đăng ký và bắt đầu mua sắm</h3>
+            <h2 class="signup-title">UrbanMonkey Shop</h2>
+          </div>
+          <form name="" action="#" class="signup-input">
+            <input type="text" placeholder="CUSTOMER@gmail.com" />
+            <button class="signup-btn">Subscribe</button>
+          </form>
+        </div>
+      </div>
+    </section>
+    <!--================================END Sign up===================== -->
+
+    <!-- ==================footer ============================-->
+    <footer class="footer" data-aos="fade-up">
+      <div class="container-product">
+        <div class="footer-box">
+          <div class="footer-col">
+            <p class="footer-title fz">UrbanMonkey</p>
+            <p class="footer-content">SINCE 2014</p>
+            <p class="footer-since pd">UrbanMonkeyShop Inc. © 2022</p>
+          </div>
+          <ul class="footer-col">
+            <h4 class="footer-title">Menu</h4>
+            <li class="footer-item">
+              <a href="#" class="footer-link">Trang chủ</a>
+            </li>
+            <li class="footer-item">
+              <a href="#" class="footer-link">Sản phẩm</a>
+            </li>
+            <li class="footer-item">
+              <a href="#" class="footer-link">Giới thiệu</a>
+            </li>
+            <li class="footer-item">
+              <a href="#" class="footer-link">Flash Sale</a>
+            </li>
+            <li class="footer-item">
+              <a href="#" class="footer-link">Feedback</a>
+            </li>
+            <li class="footer-item">
+              <a href="#" class="footer-link">Liên hệ</a>
+            </li>
+          </ul>
+          <ul class="footer-col">
+            <h4 class="footer-title">Follow Us</h4>
+
+            <li class="footer-item">
+              <a href="#" class="footer-link">Facebook</a>
+            </li>
+            <li class="footer-item">
+              <a href="#" class="footer-link">Instagram</a>
+            </li>
+            <li class="footer-item">
+              <a href="#" class="footer-link">Pinterest</a>
+            </li>
+            <li class="footer-item">
+              <a href="#" class="footer-link">Twitter</a>
+            </li>
+          </ul>
+          <div class="footer-col">
+            <h4 class="footer-title">Contact.</h4>
+            <p class="footer-content">We’re Always Happy to Help</p>
+            <div class="footer-email">ubMonkeyShop@gmail.com</div>
+            <div class="footer-phone">Hỗ trợ / Mua hàng:
+              02836367167 - 0384799845</div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+  <!-- =======================END FOOTER====================================== -->
+  <script src="../assets/js/app.js"></script>
+  <script src="../assets/js/outMenu.js"></script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+
+</html>
